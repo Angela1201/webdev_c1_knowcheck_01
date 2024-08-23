@@ -49,6 +49,9 @@ body {
 
 .hero-container {
     display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -57,11 +60,16 @@ body {
 }
 
 .hero-content {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     max-width: 1000px;
     text-align: center;
     padding: 24px;
     margin: 0 auto;
+   
 }
 
 .aboutme-container {
@@ -179,7 +187,7 @@ a:hover, a:active {
 }
 .hero-content .btn:hover, .hero-content .btn:active {
     background: #333333;
-    color: #F1F1F1;
+    color: #F4b44a;
     border: 2px solid #666666;
 }
 
